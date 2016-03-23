@@ -1,0 +1,314 @@
+body, td, textarea {
+	font-size: 11px;
+	font-family: Verdana, Tahoma, Helvetica, Sans-Serif;
+}
+
+select, input, button {
+	color: #006699;
+	font-size: 110%;
+	font-family: Tahoma, Verdana, Helvetica, Sans-Serif;
+}
+
+select {
+	font-size:100%;
+}
+
+form {
+	margin:0px;
+	padding:0px;
+}
+
+img {
+	border:0;
+}
+
+input, button, select {
+	border: solid 1px #bbbbbb;
+}
+
+input[type=submit], input[type=button], input[type=reset], button, {
+	margin:  1px;
+	padding: 1px;
+	color:  #004e7d;
+	cursor:  pointer;
+	background-color:#c5c5c5;
+	background-color:#b9d5e3;
+	border:  outset 1px #dcdad5;
+	border:  outset 1px #b9d5e3;
+}
+
+input[type=submit]:hover, input[type=button]:hover, input[type=reset]:hover, button:hover{
+	color: #006699;
+	color: #004e7d;
+	background-color:#94bfd4;
+	border:  outset 1px #b9d5e3;
+}
+
+input[type=submit]:active,input[type=button]:active,input[type=reset]:active,button:active {
+	border:  inset 1px #bbbbbb;
+}
+
+input[type=image] {
+	cursor: pointer;
+	border: 0;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+	background-color: #EBEBEB;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited {
+	color: #006699;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #ff9933;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+img {
+	border: none;
+}
+
+#spanBullet {
+	margin-left: 15px;
+	padding-left: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-image: url(../images/imgBullet.png);
+}
+
+#spanUserInfo {
+	font-weight: bold;
+}
+
+#spanDate {
+	margin-right: 15px;
+}
+
+#spanNavIcon {
+	width: auto;
+	height: auto;
+	padding: 5px;
+}
+
+#spanOpenSystem {
+	color: #003075;
+}
+
+#divPageWrapper {
+	height: auto;	
+	min-width: 800px;
+	padding-bottom: 18px;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom: solid 1px #D3D3D3;
+	background-image: url(../images/imgBackground.jpg);	
+}
+
+#divHeadNav, #divStatusBarTop, #divCenterMain {
+	width: auto;
+	height: auto;
+}
+
+#divCenterMain {
+	
+}
+
+#divHeadNavTop {
+	height: 20px;
+	background-image: url(../images/imgHeadNavTop.png);
+}
+
+#divHeadNavTop_Left {
+	float: left;
+	text-align: left;
+}
+
+#divHeadNavTop_Right {
+	float: right;
+	text-align: right; 
+}
+
+#divHeadNavTop_Left, #divHeadNavTop_Right {
+	width: 49%;
+	padding: 2px;
+	height: inherit;
+}
+
+#divHeadNavBottom {
+	height: 50px;
+	background-image: url(../images/imgHeadNavBottom.png);	
+}
+
+#divHeadNavBottom_Logo {
+	float: left;
+	height: 45px;
+	width: 156px;
+	margin-left: 10px;
+	margin-right: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../images/imgSmartTrafficLogo.gif);
+}
+
+#divHeadNavBottom_Icons {
+	float: left;
+	height: 100%;
+	margin-left: 50px;
+}
+
+#divHeadNavTop, #divHeadNavBottom {
+	width: 100%;
+	background-repeat: repeat-x;
+}
+
+#divStatusBarTop {
+	clear: both;
+	height: 20px;
+	color: #FF9D00;
+	text-align: left;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+#divFooter {
+	width: auto;
+	padding: 10px;
+	color: #666666;
+	font-size: 9px;
+	text-align: center;
+}
+
+
+
+.tdNavIcon {
+	width: auto;
+	padding-right: 20px;
+}
+
+/* START SIDEBOX MENU */
+#tdCenterMain_Left {
+	width: 200px;
+	vertical-align: top;
+}
+
+.divMenuBox {
+	width: 100%;	
+	height: auto;
+	min-width: 200px;
+	margin-bottom: 5px;	
+	border: 1px solid #D3D3D3;
+	background-color: #FDFDFD;
+}
+
+.divMenuBox_Title {
+	width: 100%;
+	height: 15px;
+	color: #666666;	
+	font-size: 10px;
+	text-align: center;
+	background-repeat: repeat-x;
+	background-image: url(../images/imgHeadNavTop.png);	
+}
+
+.divMenuBox_Items {
+	height: 15px;
+	font-size: 10px;
+	color: #003075;
+	padding-left: 5px;
+	vertical-align: middle;
+	border-top: 1px solid #D3D3D3;
+}
+
+.spanMenuBox_Items {
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-image: url(../images/imgBullet.png);
+}
+/* END SIDEBOX MENU */
+
+/* START APPLICATION BOX */
+#tdCenterMain_Right {
+	padding-left: 10px;
+	vertical-align: top;
+}
+
+#idApplicationBox {
+	width: 100%;	
+	height: auto;
+	margin-bottom: 5px;
+	border: 1px solid #D3D3D3;
+	background-color: #FDFDFD;	
+}
+
+#idApplicationBox {
+	min-width: 500px;
+}
+
+#divApplicationBox_Title {
+	width: 100%;
+	height: 20px;
+	color: #666666;
+	padding-top: 2px;
+	text-align: center;
+	background-repeat: repeat-x;
+	background-image: url(../images/imgHeadNavTop.png);
+}
+
+#divApplicationBox_Title {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#divApplicationBox_Content {
+	padding:10px;
+	position:relative;
+}
+/* END APPLICATION BOX */
+
+/* START LOGIN BOX */
+#divLoginForm {
+	padding-top: 20px;
+	height: 600px;
+}
+#tableLoginBox {
+	width: 370px;
+	border: 1px solid #D3D3D3;
+	background-color: #FDFDFD;
+}
+
+#trLoginBox_Header {
+	width: 370px;
+	height: 16px;
+	color: #666666;
+	font-weight: bold;
+	text-align: center;
+	background-repeat: repeat-x;
+	background-image: url(../images/imgLoginBoxTop.png);	
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+#tdLoginBox_Icon {
+	width: 64px;
+	height: 64px;	
+	background-image: url(../images/imgLoginBoxIcon.gif)
+}
+
+.trLoginBox_Spacer {
+	height: 15px;
+}
+
+.tdLoginBox_Spacer {
+	width: 15px;
+}
+/* END LOGIN BOX */
